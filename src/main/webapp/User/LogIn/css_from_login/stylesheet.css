@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../../img/samurai-digital-art-artwork-illustration-city-cityscape-2178071-wallhere.com.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+.log_inbox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 520px;
+    box-sizing: border-box;
+    background: rgb(0,0,0,0.5);
+    padding: 80px 40px;
+}
+.user{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: calc(-100px/2);
+    left: calc(50% - 50px);
+}
+h2{
+    margin: 0;
+    padding: 0;
+    color: #663da6;
+    text-align: center;
+}
+.log_inbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #ead2d2;
+}
+.log_inbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.log_inbox input[type="text"],
+.log_inbox input[type="password"],
+.log_inbox input[type="number"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+::placeholder{
+    color: rgb(255,255,255,0.5);
+}
+.log_inbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background: #de8585;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+.log_inbox input[type="submit"]:hover{
+    color: white;
+    background: #670ac9;
+    transition: .3s linear;
+}
+.log_inbox a{
+    color: #670ac9;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
